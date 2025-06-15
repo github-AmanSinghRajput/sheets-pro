@@ -1,33 +1,48 @@
 # Nishi Sheets Pro
 
-**Frontend-only Excel assistant** to automate daily QA task sheets for Nishi.
+A frontend-only Excel analytics platform to automate QA task sheets for Nishi and other QA teams.
 
-## 🚀 Features
+## 🚀 What is this project?
 
-- Upload & parse existing Excel workbooks  
-- Spreadsheet-like grid with auto-calculations & validations  
-- One-click export preserving sheet structure  
-- Built-in summary dashboard (pivot-style analytics)  
-- Dark／Light mode toggle  
+- Upload Excel files containing QA task data
+- Automatically parse, clean, and analyze task submissions
+- Generate daily reports for:
+  - User wise submission count
+  - WIP count
+  - Submitted count
+  - Released / Skipped task counts
+  - Shared User ID detection
+- Fully client-side, no backend, secure and private
+- SaaS-ready architecture for future productization
+
+---
 
 ## 🛠 Tech Stack
 
-- **React + Vite**  
-- **Zustand** (state)  
-- **SheetJS (xlsx)** (Excel I/O)  
-- **TanStack Table** (grid UX)  
-- **Tailwind CSS** (styling)  
+- **React + Vite** — Fast frontend build system
+- **Zustand** — Lightweight state management
+- **TailwindCSS** — Clean, scalable UI
+- **SheetJS (xlsx)** — Excel parsing entirely in browser
+- **TanStack Table** (or AG Grid) — Spreadsheet-like editable tables
+- **Vercel / Netlify** — Free hosting platform
 
-## 💡 Getting Started
+---
 
-### Prerequisites
+## 💡 Future Features (Roadmap)
 
-- Node.js ≥ 16  
-- npm or Yarn  
+- Auto column mapping engine
+- Full editable daily sheet interface
+- Smart validations (missing data, invalid formats)
+- Auto pivot / analytics summary
+- Multi-date, multi-user filtering
+- Resume-quality SaaS side project 🚀
 
-### Installation
+---
 
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/<your-username>/nishi-sheets-pro.git
-   cd nishi-sheets-pro
+## 💻 Local Development Setup
+
+### 1️⃣ Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/nishi-sheets-pro.git
+cd nishi-sheets-pro
