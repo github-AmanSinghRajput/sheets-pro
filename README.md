@@ -1,6 +1,6 @@
-# Nishi Sheets Pro
+#  Sheets Pro
 
-A frontend-only Excel analytics platform to automate QA task sheets for Nishi and other QA teams.
+A frontend-only Excel analytics platform to automate QA task sheets for  and other QA teams.
 
 ## 🚀 What is this project?
 
@@ -44,5 +44,5 @@ A frontend-only Excel analytics platform to automate QA task sheets for Nishi an
 ### 1️⃣ Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/nishi-sheets-pro.git
-cd nishi-sheets-pro
+git clone https://github.com/<your-username>/sheets-pro.git
+cd sheets-pro
